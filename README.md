@@ -84,13 +84,13 @@ go test
 ### 1. Build docker image
 
 ```bash
-docker build -t <username>/go-fibonacci-api .
+docker build -t <username>/go-fibonacci-api:1.0.0 .
 ```
 
 ### 2. Run docker image
 
 ```bash
-docker run -p 8080:8080 <username>/go-fibonacci-api
+docker run -p 8080:8080 <username>/go-fibonacci-api:1.0.0
 ```
 
 ### 3. Login into Docker
@@ -102,5 +102,5 @@ docker login
 ### 4. Push Docker Image
 
 ```bash
-docker push <username>/go-fibonacci-api
+docker push <username>/go-fibonacci-api:1.0.0
 ```
