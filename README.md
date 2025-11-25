@@ -45,7 +45,7 @@ Response
 
 ## 🔧 Prerequisites
 
-- Go (version 1.20)
+- Go (version 1.24)
 - Docker (optional, for containerized build)
 
 ---
